@@ -99,8 +99,3 @@ fun PreviewMainScreen() {
     MainScreen(onNavigateToSecondActivity = {})
 }
 
-@Preview(showBackground = true)
-@Composable
-fun PreviewBusinessItem() {
-    BusinessItem(text = "Ejemplo de negocio")
-}
